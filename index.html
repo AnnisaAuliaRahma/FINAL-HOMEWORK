@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>MY PHOTO GALLERY</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+  
+
+
+</head>
+<body>
+<nav> 
+    <ul>
+        <li><a class = "active" href="index.html">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Download</a></li>
+        <li><a href="gallery1.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<div class="breadcrumb">
+        <a class="breadcrumb__step breadcrumb__step--active" href="index.html">Home</a>
+        <a class="breadcrumb__step" href="#">News</a>
+        <a class="breadcrumb__step" href="#">Download</a>
+        <a class="breadcrumb__step" href="gallery1.html">Gallery</a>
+        <a class="breadcrumb__step" href="contact.html">Contact</a>
+</div>
+
+<h1>My Image Gallery</h1>  
+      
+<div class="galleryContainer">
+    <div class="slideShowContainer">
+        <div id="playPause" onclick="playPauseSlides()"></div>
+        <div onclick="plusSlides(-1)" class="nextPrevBtn leftArrow"><span class="arrow arrowLeft"></span></div>
+        <div onclick="plusSlides(1)" class="nextPrevBtn rightArrow"><span class="arrow arrowRight"></span></div>
+        <div class="captionTextHolder"><p class="captionText slideTextFromTop"></p></div>
+        <div class="imageHolder">
+            <img src="images/1.jpg">
+            <p class="captionText">SAKARYA UNIVERSITY</p>
+        </div>
+        <div class="imageHolder">
+            <img src="images/2.jpg">
+            <p class="captionText">SAKARYA UNIVERSITY</p>
+        </div>
+        <div class="imageHolder">
+            <img src="images/3.jpg">
+            <p class="captionText">SAKARYA UNIVERSITY</p>
+        </div>
+        <div class="imageHolder">
+            <img src="images/4.jpg">
+            <p class="captionText">SAKARYA UNIVERSITY</p>
+        </div>
+        <div class="imageHolder">
+            <img src="images/5.jpg">
+            <p class="captionText">SAKARYA UNIVERSITY</p>
+        </div>
+        <div class="imageHolder">
+            <img src="images/6.jpg">
+            <p class="captionText">SAKARYA UNIVERSITY</p>
+        </div>
+    </div>
+    <div id="dotsContainer"></div>
+</div>
+<script src="myScript.js"></script>
+<script src="index.js"></script>
+
+<footer>
+        Annisa Aulia Rahma B171200557
+</footer>
+</body>
+</html>
